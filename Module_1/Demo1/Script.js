@@ -25,16 +25,16 @@ for (const morseKey in morse) {
      console.log(morse[morseKey])
 
  }
-locations.forEach(function (value,idx ){
-    console.log(value)
- })
-  locations.forEach((val => {
-     console.log(val+"lambda")
- })
+// locations.forEach(function (value,idx ){
+//     console.log(value)
+//  })
+ //  locations.forEach((val => {
+ //     console.log(val+"lambda")
+ // })
 
 (function  hello() {
     console.log("Hello Word")
-})()
+})();
 
 const hel =function (){
     console.log("Hello Word")
